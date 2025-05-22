@@ -1,0 +1,35 @@
+/* Dark Mode Styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --dark-color: #34495e;
+    --light-color: #2c3e50;
+    --text-color: #ecf0f1;
+    --bg-color: #1a252f;
+    --card-bg: #2c3e50;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+.skill, .project-card, .contact-form, .resume-item, .contact-info {
+    background-color: var(--card-bg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.company, .institution, .skill p, .project-info p {
+    color: #bdc3c7;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: #34495e;
+    border-color: #2c3e50;
+    color: var(--text-color);
+}
+
+.tech-used li {
+    background-color: var(--primary-color);
+}
