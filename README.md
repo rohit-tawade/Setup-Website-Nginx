@@ -45,4 +45,3 @@ This repository contains the source code and configuration files for a website d
 
 **Rohit Tawade**  
 GitHub: [rohit-tawade](https://github.com/rohit-tawade)
-
